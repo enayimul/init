@@ -1,0 +1,6 @@
+ssh remote_host
+#If your username is different on the remote system, you can specify it by using this syntax:
+ssh remote_username@remote_host
+sudo systemctl start sshsudo cp /etc/ssh/sshd_config{,.bak}
+sudo nano /etc/ssh/sshd_config
+connect to Port 22
